@@ -1,0 +1,12 @@
+import random
+while(True):
+    temperature=random.randint(10,99)
+    huminity=random.randint(10,99)
+    print("Current Temperature is ",huminity,"%")
+    temperature_ref=37
+    huminity_ref=35
+    if temperature>temperature_ref and humidity<huminity_ref:
+        print("Alarm is ON")
+    else:
+        print("Alarm is OFF")
+        break
